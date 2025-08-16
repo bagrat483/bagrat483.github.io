@@ -1,0 +1,46 @@
+main>p {
+    border:0.5px;
+    color:rgba(0, 0, 0, 0.549);
+}
+header {
+    background: url("images/Frame 23.png");
+    background-size: 100% 100%;
+}
+.foto {
+    justify-content:center;
+}
+.head {
+    color:rgb(203, 192, 192);
+}
+.sambo {
+    align-items:flex-end;
+    border-radius: 7px;
+
+}
+footer {
+    background-image:url("images/Frame 16.png") ;
+    border-radius: 9px;
+    background-size: 100% 100%;
+}
+article {
+    display: flex;
+    justify-content: center;
+}
+.sambist {
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.foot {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.wrestling {
+    display: flex;
+    justify-content: end;
+}
+    
+
+
