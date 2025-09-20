@@ -8,6 +8,13 @@ header {
 }
 .foto {
     justify-content:center;
+    animation-name:foto1;
+    animation-duration:300MS;
+    animation-iteration-count:infinite;
+    animation-delay:2S;
+    animation-fill-mode:backwards;
+    animation-direction:alternate;
+    animation-play-state:easy-in;
 }
 .head {
     color:rgb(203, 192, 192);
@@ -40,6 +47,24 @@ article {
 .wrestling {
     display: flex;
     justify-content: end;
+}
+@keyframe foto1 {
+    0% {
+    transform:scale(0);
+    }
+33%{
+        transform:scale(2);
+        transform:rotateY(3turn) translate(-75);
+        background-color:GREEN;
+}
+66%{
+    transform:scale(1);
+        transform:rotateY(2turn) translate(75);
+        background-color:GREEN;
+}
+100%{
+transform:scale(0);
+}
 }
     
 
